@@ -163,5 +163,18 @@ footer.page-footer {
 }
 
 body {
-  
+  background: url('../images/continentalsplit.jpg') no-repeat;
+  background-size: 100%;
+}
+
+.wrapperTap {
+  text-align: center;
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 18%;
+  color: rgb(253, 253, 253);
+  text-shadow: 1px 1px 5px rgb(42, 49, 112);
+}
+
+.wrapperTap h1 {
+  font-size: 100px
 }

@@ -163,5 +163,6 @@ footer.page-footer {
 }
 
 body {
-  
+  background: linear-gradient(to bottom right, rgb(48, 57, 136),rgb(229, 231, 243)) !important;
 }
+
