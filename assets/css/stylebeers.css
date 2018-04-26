@@ -117,10 +117,6 @@ footer.page-footer {
   text-shadow: 1px 1px 5px rgb(42, 49, 112);
 }
 
-body {
-  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
-}
-
 .pageContent {
   height: 650px;
   text-align: center;
@@ -164,4 +160,8 @@ body {
 
 .marginHome {
   margin-top: 23%;
+}
+
+body {
+  
 }
