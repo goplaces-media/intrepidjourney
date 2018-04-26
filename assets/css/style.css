@@ -5,19 +5,30 @@
  *
  * Made By MaterializeCSS.com
  */
-
 nav ul a,
 nav .brand-logo {
   color: rgb(253, 253, 253);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 23px;
+}
+
+.navlink2 {
+  margin-right: 4%;
+  margin-top: 10px
+}
+
+.navlink {
+  padding-top: 10px;
 }
 
 nav {
   background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+  height: 87.5px;
 }
 
 .logo {
-  height: 64px;
-  margin-left: 60%;
+  height: 83px;
+  margin-left:30%;
 }
 
 p {
