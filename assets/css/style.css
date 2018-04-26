@@ -8,7 +8,16 @@
 
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: rgb(253, 253, 253);
+}
+
+nav {
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+}
+
+.logo {
+  height: 64px;
+  margin-left: 60%;
 }
 
 p {
@@ -17,6 +26,11 @@ p {
 
 .sidenav-trigger {
   color: rgb(42, 49, 112) !important;
+}
+
+.parallaxImg {
+  height: 700px;
+  width: 80%
 }
 
 .parallax-container {
@@ -58,9 +72,12 @@ footer.page-footer {
 
 .page-footer {
   background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
-  
 }
 
 #download-button {
-  background-color: rgb(42, 49, 112) !important;
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+}
+
+#download-button:hover {
+  background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
 }
