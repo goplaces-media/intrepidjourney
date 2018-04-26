@@ -109,3 +109,11 @@ footer.page-footer {
 .footer-copyright {
   background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
 }
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  float: center;
+  margin-right: 25px;
+}
