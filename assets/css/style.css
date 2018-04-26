@@ -92,3 +92,20 @@ footer.page-footer {
 #download-button:hover {
   background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
 }
+
+.social {
+  height: 100px;
+  width: 100px
+}
+
+#socialLinks li {
+  display: inline;
+}
+
+.pageText {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.footer-copyright {
+  background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
+}
