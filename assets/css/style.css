@@ -40,12 +40,13 @@ p {
 }
 
 .parallaxImg {
-  height: 700px;
+  height: 900px;
   width: 80%
 }
 
 .parallax-container {
   min-height: 380px;
+  height: 650px !important;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -95,7 +96,7 @@ footer.page-footer {
 
 .social {
   height: 100px;
-  width: 100px
+  width: 100px;
 }
 
 #socialLinks li {
@@ -116,4 +117,58 @@ footer.page-footer {
   margin-top: 10px;
   float: center;
   margin-right: 25px;
+}
+
+.header {
+  margin-top: 30%;
+  text-shadow: 1px 1px 5px rgb(42, 49, 112);
+}
+
+body {
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+}
+
+.pageContent {
+  height: 650px;
+  text-align: center;
+  color: rgb(253, 253, 253);
+}
+
+.homeHead {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.homeBody {
+  line-height: 140%;
+}
+
+.homeImg {
+  height: 200px;
+}
+
+.parallaxBottomMargin {
+  margin-bottom: 30%
+}
+
+.footerStuff {
+  text-align: center;
+}
+
+#tap-button {
+  background-color: rgb(253, 253, 253) !important;
+  color: rgb(42, 49, 112) !important;
+}
+
+#tap-button:hover {
+  background-color: rgb(48, 57, 136) !important;
+  color: rgb(253, 253, 253) !important;
+}
+
+.parallaxMargin2 {
+  margin-top: 5%;
+}
+
+.marginHome {
+  margin-top: 23%;
 }
