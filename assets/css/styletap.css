@@ -1,0 +1,194 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  .wrapperTap {
+    min-height: 50%;
+  
+    /* Equal to height of footer */
+    /* But also accounting for potential margin-bottom of last child */
+    margin-bottom: -50px;
+  }
+  .footer,
+  
+
+nav ul a,
+nav .brand-logo {
+  color: rgb(253, 253, 253);
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 23px;
+}
+
+.navlink2 {
+  margin-right: 4%;
+  margin-top: 10px
+}
+
+.navlink {
+  padding-top: 10px;
+}
+
+nav {
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+  height: 87.5px;
+}
+
+.logo {
+  height: 83px;
+  margin-left:30%;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: rgb(42, 49, 112) !important;
+}
+
+.parallaxImg {
+  height: 900px;
+  width: 80%
+}
+
+.parallax-container {
+  min-height: 380px;
+  height: 650px !important;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.page-footer {
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+}
+
+#download-button {
+  background: linear-gradient(to bottom right, rgb(48, 48, 51) , rgb(42, 49, 112) ) !important;
+}
+
+#download-button:hover {
+  background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
+}
+
+.social {
+  height: 100px;
+  width: 100px;
+}
+
+#socialLinks li {
+  display: inline;
+}
+
+.pageText {
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.footer-copyright {
+  background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
+}
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  float: center;
+  margin-right: 25px;
+}
+
+.header {
+  margin-top: 30%;
+  text-shadow: 1px 1px 5px rgb(42, 49, 112);
+}
+
+.pageContent {
+  height: 650px;
+  text-align: center;
+  color: rgb(253, 253, 253);
+}
+
+.homeHead {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.homeBody {
+  line-height: 140%;
+}
+
+.homeImg {
+  height: 200px;
+}
+
+.parallaxBottomMargin {
+  margin-bottom: 30%
+}
+
+.footerStuff {
+  text-align: center;
+}
+
+#tap-button {
+  background-color: rgb(253, 253, 253) !important;
+  color: rgb(42, 49, 112) !important;
+}
+
+#tap-button:hover {
+  background-color: rgb(48, 57, 136) !important;
+  color: rgb(253, 253, 253) !important;
+}
+
+.parallaxMargin2 {
+  margin-top: 5%;
+}
+
+.marginHome {
+  margin-top: 23%;
+}
+
+body {
+  background: url('../images/parthenon.jpg') no-repeat;
+  background-size: 100%
+}
+
+.wrapperTap {
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    margin-top: 18%;
+    color: rgb(253, 253, 253);
+    text-shadow: 1px 1px 5px rgb(42, 49, 112);
+}
+
+.wrapperTap h1 {
+    font-size: 100px
+}
