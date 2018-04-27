@@ -166,3 +166,173 @@ body {
   background: linear-gradient(to bottom right, rgb(48, 57, 136),rgb(229, 231, 243)) !important;
 }
 
+.container1  {
+  position: relative;
+  width: 45%;
+}
+.container2 {
+  position: relative;
+  width: 45%;
+}
+.container3 {
+  position: relative;
+  width: 45%;
+}
+.container4 {
+  position: relative;
+  width: 45%;
+}
+.container5 {
+  position: relative;
+  width: 45%;
+}
+.container6 {
+  position: relative;
+  width: 45%;
+}
+.container7 {
+  position: relative;
+  width: 45%;
+}
+.container8 {
+  position: relative;
+  width: 45%;
+}
+.container9 {
+  position: relative;
+  width: 45%;
+}
+.container10 {
+  position: relative;
+  width: 45%;
+}
+.container11 {
+  position: relative;
+  width: 45%;
+}
+.container12 {
+  position: relative;
+  width: 45%;
+}
+.container13 {
+  position: relative;
+  width: 45%;
+}
+.container14 {
+  position: relative;
+  width: 45%;
+}
+.container15 {
+  position: relative;
+  width: 45%;
+}
+.container16 {
+  position: relative;
+  width: 45%;
+}
+.container17 {
+  position: relative;
+  width: 45%;
+}
+.container18 {
+  position: relative;
+  width: 45%;
+}
+.container19 {
+  position: relative;
+  width: 45%;
+}
+
+
+.image {
+  display: block;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  float: center;
+  margin-right: 25px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(42, 49, 112);
+}
+
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+.container2:hover .overlay {
+  opacity: 1;
+}
+.container3:hover .overlay {
+  opacity: 1;
+}
+.container4:hover .overlay {
+  opacity: 1;
+}
+.container5:hover .overlay {
+  opacity: 1;
+}
+.container6:hover .overlay {
+  opacity: 1;
+}
+.container7:hover .overlay {
+  opacity: 1;
+}
+.container8:hover .overlay {
+  opacity: 1;
+}
+.container9:hover .overlay {
+  opacity: 1;
+}
+.container10:hover .overlay {
+  opacity: 1;
+}
+.container11:hover .overlay {
+  opacity: 1;
+}
+.container12:hover .overlay {
+  opacity: 1;
+}
+.container13:hover .overlay {
+  opacity: 1;
+}
+.container14:hover .overlay {
+  opacity: 1;
+}
+.container15:hover .overlay {
+  opacity: 1;
+}
+.container16:hover .overlay {
+  opacity: 1;
+}
+.container17:hover .overlay {
+  opacity: 1;
+}
+.container18:hover .overlay {
+  opacity: 1;
+}
+.container19:hover .overlay {
+  opacity: 1;
+}
+
+
+.text {
+  color: white;
+  font-size: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
