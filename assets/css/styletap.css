@@ -118,14 +118,6 @@ footer.page-footer {
   background: linear-gradient(to bottom right, rgb(42, 49, 112), rgb(48, 48, 51)  ) !important;
 }
 
-.auth-image {
-  width: 200px;
-  height: auto;
-  margin-top: 10px;
-  float: center;
-  margin-right: 25px;
-}
-
 .header {
   margin-top: 30%;
   text-shadow: 1px 1px 5px rgb(42, 49, 112);
