@@ -7,7 +7,7 @@
   <title>Intrepid Journey Brewing Co.</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -15,19 +15,17 @@
 <body>
   <nav>
     <div class="nav-wrapper">
-      <a href="index.html" class="brand-logo">
-        <img class="logo" src="./assets/images/logowhite.png">
+      <a href="index.html" class="brand-logo center">
+        <img class="logo" src="./assets/images/logoIJ.png">
       </a>
-      <ul class="navlink2 right hide-on-med-and-down">
-        <li><a href="taproom.html">Tap Room</a></li>
+      <ul class="right">
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1"><i class="material-icons dropdownclick">menu</i></a></li>
       </ul>
-
-      <ul class="navlink right hide-on-med-and-down">
-        <li><a href="beers.html">Beers</a></li>
-      </ul>
-
-      <ul class="navlink right hide-on-med-and-down">
-        <li><a href="about.html">About Us</a></li>
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a class="dropdownmenu" href="index.html">Home</a></li>
+        <li><a class="dropdownmenu" href="about.html">About Us</a></li>
+        <li><a class="dropdownmenu" href="beers.html">Beers</a></li>
+        <li><a class="dropdownmenu" href="taproom.html">Tap Room</a></li>
       </ul>
 
 
@@ -74,7 +72,7 @@
           <h2 class="header col s12 light pageText">Beers for Every Journey</h2>
         </div>
         <div class="row center parallaxBottomMargin">
-          <a href="beers.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Our Beers</a>
+          <a href="beers.html" class="btn-large waves-effect waves-light index-button">Our Beers</a>
         </div>
       </div>
     </div>
@@ -96,7 +94,7 @@
         <div class="col m3 s12"></div>
         <div class="col s12">
           <div class="row center parallaxMargin2">
-            <a href="taproom.html" id="tap-button" class="btn-large waves-effect waves-light teal lighten-1">Tap Room</a>
+            <a href="taproom.html" class="btn-large waves-effect waves-light index-button">Tap Room</a>
           </div>
         </div>
       </div>
