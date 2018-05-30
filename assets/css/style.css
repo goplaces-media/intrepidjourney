@@ -6,7 +6,7 @@ nav .brand-logo {
 }
 
 nav {
-  background: rgb(47, 68, 83) !important;
+  background: rgb(23, 61, 84) !important;
 }
 
 .dropdownmenu {
@@ -73,7 +73,7 @@ footer.page-footer {
 }
 
 .page-footer {
-  background: rgb(47, 68, 83) !important;
+  background: rgb(23, 61, 84) !important;
 }
 
 .social {
@@ -90,7 +90,7 @@ footer.page-footer {
 }
 
 .footer-copyright {
-  background: rgb(23, 61, 84) !important;
+  background: rgb(47, 68, 83) !important;
   font-weight: bold
 }
 
